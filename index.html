@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Alexander Gomez</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">ALEXANDER</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">START</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <!--<li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>-->
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/1080x1080.jpg" alt="">
+            </div>
+            <h1>ALEXANDER GOMEZ</h1>
+            <h2>FULLSTACK DEVELOPER</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/alexand_a8/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/alexander-gomez-130587268/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/AlexanderG8"><i class="fa-brands fa-github"></i></a>
+                <!--<a href="#"><i class="fa-brands fa-facebook-f"></i></a>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>About Me</h2>
+            <p><span>Hi, i'm Alexander Gomez.</span> and I am a passionate web developer. Welcome to my portfolio, where you can learn about my experience and skills in the field of web development.</p>
+            <p>I have a strong background in front-end development, using technologies like <span>HTML, CSS, Bootstrap, and JavaScript</span> to bring designs to life and ensure intuitive navigation.
+                And also, I have experience in the backend side with <span>C#</span> technology using the <span>.NET</span> framework which allows me with this knowledge to create dynamic and responsive web applications.</p>
+            <p>My focus is not limited only to the technical part. I am always aware of the latest trends and best practices in web development, to ensure that I offer modern and attractive solutions to my clients.
+                I also value collaboration and effective communication, working closely with teams to ensure successful results.</p>
+            <p>If you are looking for a dedicated, committed and passionate web developer, do not hesitate to contact me. I am ready to face new challenges and help you take your digital vision to the next level.</p>
+            <p><span>¡Thank you for visiting my portfolio and I hope you like the content!</span></p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Personal Data</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            15-08-1997
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            mpalexanderg@outlook.com
+                        </li>
+                        <li>
+                            <strong>Country</strong>
+                            Perú
+                        </li>
+                        <li>
+                            <strong>Job</strong>
+                            <span>DEVELOPER .NET</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SPORTS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>BOOKS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="https://onedrive.live.com/download?resid=92DA4F7880D29CB%21138188&authkey=!AHDtPp8X2Rm2zzQ&em=2" style="color: white;">Download CV</a> <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>.NET</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Blazor</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Scrum Master</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ingles</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>35%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>Academic Activities</h4>
+                        <span class="casa">Crus Saco I.E.P</span>
+                        <span class="fecha">2009 - 2014</span>
+                        <p>Cruz Saco Private Educational Institution, where I developed my pre-university academic activities.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>University Studies</h4>
+                        <span class="casa">University of Sciences and Humanities</span>
+                        <span class="fecha">2019 - Currently</span>
+                        <p>University of Sciences and Humanities, I am currently studying Systems Engineering and Computer Science where I am finishing the 8th cycle.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Work Experience</h3>
+                    <div class="item der">
+                        <h4>Support and Implementation Analyst</h4>
+                        <span class="casa">Eximio SAC</span>
+                        <span class="fecha">2021 - 2021</span>
+                        <p>I carried out support and implementation tasks, where the following stand out:</p>
+                        <p><strong>Project Ratifika</strong></p>
+                        <ul>
+                            <li>Implementation of the Ratifika service for corporate clients.</li>
+                            <li>Maintenance of the Ratifika platform.</li>
+                            <li>Support to integrations (TXT - BD - JSON) of clients.</li>
+                            <li>Support to corporate clients.</li>
+                            <li>Analysis of information in relational databases.</li>
+                        </ul>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>.NET Programmer Analyst</h4>
+                        <span class="casa">Myper Software</span>
+                        <span class="fecha">2021 - Currently</span>
+                        <p>I carried out support and implementation tasks, in different projects such as:</p>
+                        <ul>
+                            <li>Business analysis and implementation of architectures with MVC, .NET, .NETCORE, N Layers with ORM Entity Framework.</li>
+                            <li>Creation and optimization of procedures, cursors, views, jobs with SQL Server.</li>
+                            <li>Development of REST Services, web API.</li>
+                            <li>Report export with Rotativa for ASP.NET CORE.</li>
+                            <li>Deployments on IIS.</li>
+                            <li>Frontend development with Razor, Blazor or Bootstrap, HTML, CSS, JavaScript.</li>
+                        </ul>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--
+    SECCION PORTFOLIO
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACT</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form method="POST" data-netlify="true" id="Miformulario" />
+                        <input type="text" name="name" placeholder="Your name" required>
+                        <input type="text" name="number" placeholder="Phone number" required>
+                        <input type="email" name="email" placeholder="Mail address" required>
+                        <input type="text" name="subject" placeholder="Issue" required>
+                        <textarea name="" id="" cols="30" rows="10" name="comments" placeholder="Message" required></textarea>
+                        <button onclick="EnviarEmail()">
+                            Send Message <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249743.7330838959!2d-77.15293403522529!3d-12.026589791350288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sLima!5e0!3m2!1ses!2spe!4v1688434587363!5m2!1ses!2spe" width="100%" height="87%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/alexand_a8/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/alexander-gomez-130587268/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/AlexanderG8"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
