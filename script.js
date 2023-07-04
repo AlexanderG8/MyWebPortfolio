@@ -41,12 +41,3 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
-
-function EnviarEmail()
-{
-    debugger
-    const btnenviar = document.getElementById('btnEnviar');
-    btnenviar.disabled = true; 
-    let formulario = document.getElementById('Miformulario');
-    formulario.submit();
-}
