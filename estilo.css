@@ -302,7 +302,7 @@ html{
 }
 @keyframes net {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 75%;}
 }
 
 .skills .skill .blazor{
@@ -311,7 +311,7 @@ html{
 }
 @keyframes blazor {
     0%{width: 0%;}
-    100%{width: 50%;}
+    100%{width: 40%;}
 }
 
 .skills .skill .sql{
@@ -321,6 +321,15 @@ html{
 @keyframes sql {
     0%{width: 0%;}
     100%{width: 65%;}
+}
+
+.skills .skill .git{
+    width: 0%;
+    animation: 2s git forwards;
+}
+@keyframes git {
+    0%{width: 0%;}
+    100%{width: 55%;}
 }
 
 .skills .skill .comunicacion{

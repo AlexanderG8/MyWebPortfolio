@@ -27,12 +27,13 @@ function efectoHabilidades(){
         habilidades[3].classList.add("net");
         habilidades[4].classList.add("blazor");
         habilidades[5].classList.add("sql");
-        habilidades[6].classList.add("comunicacion");
-        habilidades[7].classList.add("trabajo");
-        habilidades[8].classList.add("creatividad");
-        habilidades[9].classList.add("dedicacion");
-        habilidades[10].classList.add("proyect");
-        habilidades[11].classList.add("ingles");
+        habilidades[6].classList.add("git");
+        habilidades[7].classList.add("comunicacion");
+        habilidades[8].classList.add("trabajo");
+        habilidades[9].classList.add("creatividad");
+        habilidades[10].classList.add("dedicacion");
+        habilidades[11].classList.add("proyect");
+        habilidades[12].classList.add("ingles");
     }
 }
 
