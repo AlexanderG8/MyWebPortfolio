@@ -305,13 +305,13 @@ html{
     100%{width: 75%;}
 }
 
-.skills .skill .blazor{
+.skills .skill .jquery{
     width: 0%;
-    animation: 2s blazor forwards;
+    animation: 2s jquery forwards;
 }
-@keyframes blazor {
+@keyframes jquery {
     0%{width: 0%;}
-    100%{width: 40%;}
+    100%{width: 50%;}
 }
 
 .skills .skill .sql{
